@@ -21,7 +21,16 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.formulario label{
+
+.nome,
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nome label,
+.email label{
     color: #fff;
     width: 100%;
     text-align: left;
@@ -30,7 +39,17 @@ body{
     cursor: pointer;
 }
 
-.formulario input,
+.nome input,
+.email input{
+    background-color: #353535;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    margin-bottom: 4px;
+    color: #fff;
+    box-shadow: 0 3px 5px rgb(161, 161, 161);
+}
+
 .formulario textarea{
     background-color: #353535;
     border: 2px solid #fff;
